@@ -1,4 +1,4 @@
-from core.paper import Paper, Reference, Affiliation, Author
+from .paper import Paper, Reference, Affiliation, Author
 import warnings
 import logging
 

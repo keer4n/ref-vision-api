@@ -1,6 +1,6 @@
 import requests
-from core.crossrefparser import CrossRefRestParser
-from core.grapher import Grapher
+from ..core.crossrefparser import CrossRefRestParser
+from ..core.grapher import Grapher
 import warnings 
 
 class APIWarning(Warning):
