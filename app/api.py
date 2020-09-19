@@ -2,10 +2,10 @@ import requests
 import json
 from flask import Flask, jsonify, request
 
-from .core.finder import QueryService
-from .core.crossrefparser import CrossRefRestParser
-from .core.grapher import Grapher
-from .core.paper import GenericEncoder, GraphEncoder
+from core.finder import QueryService
+from core.crossrefparser import CrossRefRestParser
+from core.grapher import Grapher
+from core.paper import GenericEncoder, GraphEncoder
 
 # app =  Flask(__name__, static_folder="../build", static_url_path='/')
 
